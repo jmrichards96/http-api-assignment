@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "Simple HTTP API with status codes and accept headers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmrichards96/http-api-assignment.git"
+  },
+  "author": "Josh Richards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmrichards96/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/jmrichards96/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
